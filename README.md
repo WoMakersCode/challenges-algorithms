@@ -28,4 +28,4 @@ Para enviar seus PR (pull Requests) usamos o padrão de commit semântico que co
 | test: garantir que incremento      | Criação de testes da sua aplicação| 
 
 :zap: Acompanhem os outros repositórios e **vamos juntas** !
-Demais dúvidas mandem no slack --> [Entre no nosso slack clicando aqui](https://app.slack.com/client/TCPDKMM4Z/CCQ5XKXPX)
+Demais dúvidas mandem no slack no canal Challenges Algorithms --> [Entre no nosso canal clicando aqui](https://grupo-womakerscode.slack.com/archives/C012MKKKZEF)
