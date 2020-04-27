@@ -19,7 +19,7 @@ Bem vindas ao nosso repositório de desafios, aqui vocês encontram diversos cen
 
 :worried: Tenho uma sugestão de desafio, posso colaborar?
 
-**:point_right: Claro quue pode, esses repositório é para a comunidade, mande uma issue com a sugeatão de enunciado! Nossas organizadores [Laís Lima](https://twitter.com/laislima_dev), e [Ana Beatriz](https://twitter.com/anabneri) irão revisar e aceitar sua issue, fique à vontade**
+**:point_right: Claro quue pode, esses repositório é para a comunidade, mande uma issue com a sugeatão de enunciado! Nossas organizadores [Laís Lima](https://twitter.com/laislima_dev), [Ana Beatriz](https://twitter.com/anabneri), e [Kamila Santos](https://twitter.com/kamilah_santos) irão revisar e aceitar sua issue, fique à vontade**
 
 
 # Commits semânticos
