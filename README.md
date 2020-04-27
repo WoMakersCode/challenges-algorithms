@@ -5,6 +5,13 @@ Repositório referente à desafios sobre **algoritmos** da womakerscode.
 
 Bem vindas ao nosso repositório de desafios, aqui vocês encontram diversos cenários para praticarem e também para contribuirem com a comunidade, mandem issues!
 
+# Issues com enunciados
+* [Soma De Arrays](https://github.com/WoMakersCode/challenges-algorithms/issues/1)
+
+
+
+...
+
 ## Algumas possíveis perguntas:
 :worried: Não entendi um enunciado, o que eu faço?
 
