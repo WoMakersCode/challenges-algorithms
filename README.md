@@ -1,11 +1,11 @@
 ![womakerscode logotipo](https://user-images.githubusercontent.com/42419543/80400262-ed87f580-8890-11ea-8e39-aabe0f3efe1c.png)
 
-# challenges-algorithms
+# Challenges Algorithms
 Repositório referente à desafios sobre **algoritmos** da womakerscode.
 
 Bem vindas ao nosso repositório de desafios, aqui vocês encontram diversos cenários para praticarem e também para contribuirem com a comunidade, mandem issues!
 
-# Issues com enunciados
+# :sparkles: Issues com enunciados
 * [Soma De Arrays](https://github.com/WoMakersCode/challenges-algorithms/issues/1)
 
 
