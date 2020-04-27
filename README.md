@@ -8,7 +8,7 @@ Bem vindas ao nosso repositório de desafios, aqui vocês encontram diversos cen
 ## Algumas possíveis perguntas:
 :worried: Não entendi um enunciado, o que eu faço?
 
-**:point_right: Entre no nosso canal do slack, lá tiramos todas as dúvidas e auxiliamos no que for possível** [Entre no nosso slack cliancando aqui](https://app.slack.com/client/TCPDKMM4Z/CCQ5XKXPX)
+**:point_right: Entre no nosso canal do slack, lá tiramos todas as dúvidas e auxiliamos no que for possível** [Entre no nosso slack clicando aqui](https://app.slack.com/client/TCPDKMM4Z/CCQ5XKXPX)
 
 :worried: Tenho uma sugestão de desafio, posso colaborar?
 
@@ -28,4 +28,4 @@ Para enviar seus PR (pull Requests) usamos o padrão de commit semântico que co
 | test: garantir que incremento      | Criação de testes da sua aplicação| 
 
 :zap: Acompanhem os outros repositórios e **vamos juntas** !
-Demais dúvidas mandem no slack --> [Entre no nosso slack cliancando aqui](https://app.slack.com/client/TCPDKMM4Z/CCQ5XKXPX)
+Demais dúvidas mandem no slack --> [Entre no nosso slack clicando aqui](https://app.slack.com/client/TCPDKMM4Z/CCQ5XKXPX)
