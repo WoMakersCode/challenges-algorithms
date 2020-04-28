@@ -6,7 +6,7 @@ Repositório referente à desafios sobre **algoritmos** da womakerscode.
 Bem vindas ao nosso repositório de desafios, aqui vocês encontram diversos cenários para praticarem e também para contribuirem com a comunidade, mandem issues!
 
 # :sparkles: Issues com enunciados
-* [Soma De Arrays](https://github.com/WoMakersCode/challenges-algorithms/issues/1)
+* [Soma simples](https://github.com/WoMakersCode/challenges-algorithms/issues/1)
 
 
 
