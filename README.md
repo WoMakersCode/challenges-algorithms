@@ -8,7 +8,7 @@ Bem vindas ao nosso repositório de desafios, aqui vocês encontram diversos cen
 # :sparkles: Issues com enunciados
 * [Soma simples](https://github.com/WoMakersCode/challenges-algorithms/issues/1)
 * [Tabuada](https://github.com/WoMakersCode/challenges-algorithms/issues/2)
-
+* [Verificando se um número é primo](https://github.com/WoMakersCode/challenges-algorithms/issues/3)
 
 
 ...
