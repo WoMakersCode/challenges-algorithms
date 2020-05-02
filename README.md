@@ -1,4 +1,5 @@
-![womakerscode logotipo](https://user-images.githubusercontent.com/2198735/80845484-b93d6d80-8bdf-11ea-8f9b-c8b48368ba79.JPG)
+![logotimo womakerscode](https://user-images.githubusercontent.com/42419543/80852181-e8aea300-8bfc-11ea-8056-f449f532f76c.png)
+
 
 # Algorithm Challenfes
 Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série de desafios sobre **Algoritomos**.
