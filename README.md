@@ -22,6 +22,7 @@ Estamos adicionando os desafios na aba `issues` deste repositório. Todos os des
 * [Verificando se um número é primo](https://github.com/WoMakersCode/challenges-algorithms/issues/3)
 * [Troca vogal por \*](https://github.com/WoMakersCode/challenges-algorithms/issues/5)
 * [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7)
+* [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8)
 
 
 
