@@ -24,6 +24,7 @@ Estamos adicionando os desafios na aba `issues` deste repositório. Todos os des
 * [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7)
 * [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10)
 * [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8)
+* [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13)
 
 
 ## Dúvidas frequentes
