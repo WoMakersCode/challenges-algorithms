@@ -2,7 +2,7 @@
 
 
 # Algorithm Challenges
-Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série de desafios sobre **Algoritomos**.
+Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série de desafios sobre **Algoritmos**.
 
 
 [![license](https://img.shields.io/github/license/womakerscode/challenges-front-end.svg)](/license)
