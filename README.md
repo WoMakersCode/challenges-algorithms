@@ -21,6 +21,8 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10) | ..  | level-100 |
 | [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8) | ..  | level-200 |
 | [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13) | .. | level-300 |
+| [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15) | .. | level-200 |
+
 
 ## :closed_book: Tutoriais disponíveis
 
