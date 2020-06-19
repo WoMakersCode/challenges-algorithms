@@ -22,7 +22,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8) | ..  | level-200 |
 | [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13) | .. | level-300 |
 | [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15) | .. | level-200 |
-
+| [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17) | .. | level-300 |
 
 ## :closed_book: Tutoriais disponíveis
 
