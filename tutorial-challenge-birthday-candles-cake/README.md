@@ -85,3 +85,11 @@ Para resolver umas das opções é inserir um if concatenado onde comparo o valo
 ```
 
 > Vejam que eu estou usando Integer ao invés de Int, pois o Integer é uma classe wrapper que usa o tipo primitivo Int, aceita os mesmos valores porém possibilita a declaração de valores nulos, sendo assim mesmo que o usuário digite 0, eu vou saber que foi uma valor null
+
+## FIM
+
+Espero ter te ajudado de alguma forma, vou deixar num link abaixo o exercício no HackerRank para você resolver por lá se quiser, esta também neste documento a classe do código! Try yourself :cupid:
+
+Demais dúvidas podem me chamar nas redes sociais [@anabneri](https://twitter.com/anabneri)
+
+Exercício no HackerRank: [Birthday Candle Cake](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
