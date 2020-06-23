@@ -30,7 +30,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 
 | Desafio | Nível 
 | ------------- |:-------------:| 
-| *Aguadando contribuições...*| ..  |
+| Birthday Candles Cake | `level-200` |
 
 ## :thinking: Como funciona
 Estamos adicionando os desafios na aba `issues` deste repositório. Todos os desafios estão marcados uma label de nível de dificuldade.
