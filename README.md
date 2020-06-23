@@ -13,18 +13,18 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 
 | Desafio | Resolução | Nível 
 | ------------- |:-------------:|:-------------:| 
-| [Soma simples](https://github.com/WoMakersCode/challenges-algorithms/issues/1) | ..  | level-100 |
-| [Tabuada](https://github.com/WoMakersCode/challenges-algorithms/issues/2) | ..  | level-100 |
-| [Verificando se um número é primo](https://github.com/WoMakersCode/challenges-algorithms/issues/3) | ..  | level-100 |
-| [Troca vogal por \*](https://github.com/WoMakersCode/challenges-algorithms/issues/5) | ..  | level-200 |
-| [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7) | ..  | livel-400 |
-| [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10) | ..  | level-100 |
-| [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8) | ..  | level-200 |
-| [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13) | .. | level-300 |
-| [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15) | .. | level-200 |
-| [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17) | .. | level-300 |
-| [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18) | .. | level-100 |
-| [Soma valores mínimos e máximos](https://github.com/WoMakersCode/challenges-algorithms/issues/20) | .. | level-100 |
+| [Soma simples](https://github.com/WoMakersCode/challenges-algorithms/issues/1) | ..  | `level-100` |
+| [Tabuada](https://github.com/WoMakersCode/challenges-algorithms/issues/2) | ..  | `level-100` |
+| [Verificando se um número é primo](https://github.com/WoMakersCode/challenges-algorithms/issues/3) | ..  | `level-100` |
+| [Troca vogal por \*](https://github.com/WoMakersCode/challenges-algorithms/issues/5) | ..  | `level-200` |
+| [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7) | ..  | `level-400` |
+| [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10) | ..  | `level-100` |
+| [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8) | ..  | `level-200` |
+| [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13) | .. | `level-300` |
+| [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15) | .. | `level-200` |
+| [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17) | .. | `level-300` |
+| [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18) | .. | `level-100` |
+| [Soma valores mínimos e máximos](https://github.com/WoMakersCode/challenges-algorithms/issues/20) | .. | `level-100` |
 
 ## :closed_book: Tutoriais disponíveis
 
