@@ -43,7 +43,7 @@ De acordo com quantas velas tiverem temos que saber quantas velas serão soprada
 Achar o valor máximo do array, que esse será o número escolhido de velas para serem assopradas, nesse caso temos que fazer duas coisas dentro da função **birthdayCakeCandles**:
 
 - 1 - encontrar o valor máximo do array
-- 2 - contar a frequência do elemento máximo, isso iremos usar um loop pq requer isso
+- 2 - contar a frequência do elemento máximo, isso iremos usar um loop pois requer isso
 
 Então temos duas situações que nosso algoritmo deve resolver
 A base da lógica é um array que pega um espaço de uma matriz e esse será o valor máximo algo como:
