@@ -24,6 +24,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15) | .. | level-200 |
 | [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17) | .. | level-300 |
 | [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18) | .. | level-100 |
+| [Soma valores mínimos e máximos](https://github.com/WoMakersCode/challenges-algorithms/issues/20) | .. | level-100 |
 
 ## :closed_book: Tutoriais disponíveis
 
