@@ -15,9 +15,6 @@ public class Solution {
         int maxCandleHeight = Integer.MIN_VALUE;
         int maxCandleFreqCount = 0;
 
-        int maxCandleHeight = Integer.MIN_VALUE;
-        int maxCandleFreqCount = 0;
-
         for (int i = 0; i < ar.length; i++) {
 
             if (ar[i] == maxCandleHeight) {
