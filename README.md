@@ -23,6 +23,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13) | .. | level-300 |
 | [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15) | .. | level-200 |
 | [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17) | .. | level-300 |
+| [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18) | .. | level-100 |
 
 ## :closed_book: Tutoriais disponíveis
 
