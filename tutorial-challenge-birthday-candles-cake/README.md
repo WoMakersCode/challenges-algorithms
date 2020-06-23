@@ -1,4 +1,4 @@
-# :cake: Challenge Birthday Candles Cakes
+# :cake: Challenge Birthday Candles Cake
 
 Este é um exercício bem bacana do HackerRank, e logo de cara achamos que é super díficil.
 
