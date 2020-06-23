@@ -36,6 +36,7 @@ No test case do HackerRank esta é a entrada recebida
 Levando isso em consideração, a saída desse teste tem que ser 2, pois **2**, corresponde ao tanto de velas que a sobrinha terá que assoprar!
 
 #**CÒDIGO**
+
 :sob: Como vamos resolver esse problema?
 
 De acordo com quantas velas tiverem temos que saber quantas velas serão sopradas.
