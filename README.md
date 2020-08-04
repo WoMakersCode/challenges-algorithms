@@ -32,7 +32,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 
 | Desafio               |    Nível    |
 | --------------------- | :---------: |
-| Birthday Candles Cake | `level-200` |
+| [Birthday Candles Cake](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-birthday-candles-cake) | `level-200` |
 
 ## :thinking: Como funciona
 
