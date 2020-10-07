@@ -1,6 +1,6 @@
 # Contribuindo para o Algorithms Challenges
 
-Procurando contribuir com algo para o Front-end Challenges? **Veja como você pode ajudar.**
+Procurando contribuir com algo para o Algorithms Challenges? **Veja como você pode ajudar.**
 
 Reserve um momento para revisar este documento, a fim de tornar o processo de contribuição fácil e eficaz para todos os envolvidos.
 
@@ -27,5 +27,5 @@ Para enviar seus PR (pull Requests) usamos o padrão de commit semântico que co
 
 :zap: Acompanhem os outros repositórios e **vamos juntas** !
 
-Demais dúvidas entre no canal de Challenge Front End no slack da Womakerscode --> [Entre no nosso canal clicando aqui](https://grupo-womakerscode.slack.com/archives/C0126NAKPTRG)
+Demais dúvidas entre no canal de Challenge Algorithms no slack da Womakerscode --> [Entre no nosso canal clicando aqui](https://grupo-womakerscode.slack.com/archives/C0126NAKPTRG)
 
