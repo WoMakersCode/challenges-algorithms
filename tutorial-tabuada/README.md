@@ -1,39 +1,33 @@
-# :cake: Challenge Birthday Candles Cake
-
-Este é um exercício bem bacana do HackerRank, e logo de cara achamos que é super díficil.
+# Desafio Tabuada de Multiplicação
 
 **Vamos ao enunciado:**
 
-Você é o responsável pelo bolo no aniversário da sua sobrinha e decidiu que o bolo terá _uma vela para cada ano de sua idade total_. Quando ela apaga as velas, ela só consegue apagar as mais altas. Sua tarefa é descobrir quantas velas ela pode soprar com sucesso.
+Usuário irá digitar um número inteiro e selecionar a quantidade de vezes que será multiplicado. 
+Com essas duas informações será gerada a tabuada
 
-Por exemplo, se sua sobrinha estiver fazendo 4 anos, e o bolo tiver 4 velas com os valores: **4,4,1,3**, ela poderá soprar **2** velas com sucesso, uma vez que as velas mais altas têm a altura **4** e existem **2** velas.
-
-**Descrição da função:**
-
-Complete a função birthdayCakeCandles no editor abaixo. Ele deve retornar um número inteiro representando o número de velas que ela pode soprar.
-
-birthdayCakeCandles tem o(s) seguinte(s) parâmetro(s):
-
-- ar: uma matriz de números inteiros representando a altura das velas
-
-Basicamente nosso código tem que ser capaz de identificar as velas que são trazidas, e contabilizar quantas velas a sobrinha tem que soprar para equivaler a idade dela.
-
-**Input simples**
+**Entrada**
 
 ```
-4
-3 2 1 3
-```
+  5 10
 
-No test case do HackerRank esta é a entrada recebida
+```
 
 **Output**
 
 ```
-2
-```
+  5 x 0 = 0
+  5 x 1 = 5
+  5 x 2 = 10
+  5 x 3 = 15
+  5 x 4 = 20
+  5 x 5 = 25
+  5 x 6 = 30
+  5 x 7 = 35
+  5 x 8 = 40
+  5 x 9 = 45
+  5 x 10 = 50
 
-Levando isso em consideração, a saída desse teste tem que ser 2, pois **2**, corresponde ao tanto de velas que a sobrinha terá que assoprar!
+```
 
 #**CÒDIGO**
 
