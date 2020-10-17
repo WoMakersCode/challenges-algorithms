@@ -37,17 +37,17 @@ O projeto foi divido em 3 pastas:
 
 - Assets: Todos os arquivos de estilo e javascript
 - Controller: O responsavel por manipular os dados
-- Model: Aonde fica os dados
+- Model: Aonde fica salvo os dados
 
 Todas as essas pastas citadas acima é utilizado no arquivo chamado index.php, aonde foi feito uma interface simples utilizando css e html.
 
-Legal! Foi contruido dessa forma mas, como funciona?
+Legal! Foi construido dessa forma mas, como funciona?
 
-#**CÒDIGO**
+## **CÒDIGO**
 
 :thinking: vamos resolver esse problema
 
-## MultiplicacaoModel
+##MultiplicacaoModel
 
 Para conseguir salvar a tabuada eu preciso armazenar em algum lugar, por isso eu utilizei o padrão de arquitetura MVC de forma simples.
 
