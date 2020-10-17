@@ -177,7 +177,7 @@ mas como iremos fazer isso?
   require_once __DIR__ . '/controller/multiplicacaoController.php';
 ```
 
-2.2º Tratar para que os dados não envie nullo ou invalido para o metodo, que será responsavel por calcular a tabuada
+2.2º Tratar para que os dados não envie nullo ou invalido para o metodo, que será responsavel por multiplicar
 
 ```php
   $numero = isset($_POST['numero']) ? $_POST['numero'] : '0';
