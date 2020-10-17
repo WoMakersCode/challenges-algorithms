@@ -152,7 +152,7 @@ Função completa:
 
 ## index.php
 
-1º Vamos criar toda a estrutura HTML, para mandar os valores para aquele metodo iremos utilizar o formulário
+1º Vamos criar toda a estrutura HTML, iremos utilizar o formulário para mandar os dados para o metodo multiplicar
 
 ```html
 <div>
