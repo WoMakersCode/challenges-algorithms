@@ -136,6 +136,8 @@ Ao convocar esses valores estou o concatenando, para ficar em formato de tabela 
     echo '</tr>';
 ```
 
+Função completa:
+
 ```php
   public function tabuada()
     {
