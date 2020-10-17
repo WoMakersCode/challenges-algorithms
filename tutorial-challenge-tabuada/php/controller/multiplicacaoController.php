@@ -9,7 +9,7 @@ class MultiplicacaoController extends MultiplicacaoModel
     {
         for ($i = 0; $i <= $quantidadeVezes; $i++) {
             $this->valores[] = [
-                'soma' => $numero * $i,
+                'valorMultiplicado' => $numero * $i,
                 'numero' => $numero,
                 'multiplicador' => $i
             ];
@@ -21,7 +21,7 @@ class MultiplicacaoController extends MultiplicacaoModel
         foreach ($this->valores as $valor) {
             echo "<tr>";
             echo "<td> $valor[numero]  *  $valor[multiplicador] </td>";
-            echo "<td> $valor[soma]  </td>";
+            echo "<td> $valor[valorMultiplicado]  </td>";
             echo '</tr>';
         }
     }
