@@ -31,7 +31,7 @@ Com essas duas informações será gerada a tabuada.
 
 #**CÒDIGO**
 
-:sob: Como vamos resolver esse problema?
+:thinking: Como vamos resolver esse problema?
 
 De acordo com os valores que usuário for digitar, iremos fazer um loop para multiplicar o valor com a quantidade de vezes que o usuário quer gerar a tabuada.
 
