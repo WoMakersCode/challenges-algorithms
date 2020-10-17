@@ -152,7 +152,7 @@ Função completa:
 
 ## index.php
 
-1º Vamos criar toda a estrutura HTML, iremos utilizar o form para mandar os dados para a classe
+1º Vamos criar toda a estrutura HTML, para mandar os valores para aquele metodo iremos utilizar o formulário
 
 ```html
 <div>
