@@ -1,11 +1,11 @@
 <?php
 
-require_once __DIR__ . '/classes/multiplicacao.php';
+require_once __DIR__ . '/controller/multiplicacaoController.php';
 
 $numero = isset($_POST['numero']) ? $_POST['numero'] : '0';
 $quantidade = isset($_POST['qtdVezes']) ? $_POST['qtdVezes'] : '0';
 
-$multiplicacao = new Multiplicacao();
+$multiplicacao = new MultiplicacaoController();
 $multiplicacao->multiplicar($numero, $quantidade);
 
 ?>
@@ -24,10 +24,10 @@ $multiplicacao->multiplicar($numero, $quantidade);
         <div>
             <form method="post" name="login">
                 <label for="numero"> Numero: </label>
-                <input type="number" id="numero" name="numero" />
+                <input type="number" id="numero" name="numero" value="0" />
 
                 <label for="qtdVezes"> Quantidade de vezes: </label>
-                <input type="number" id="qtdVezes" name="qtdVezes" />
+                <input type="number" id="qtdVezes" name="qtdVezes" value="0" />
 
                 <input type="submit">
             </form>
