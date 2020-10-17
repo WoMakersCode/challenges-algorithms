@@ -47,7 +47,7 @@ Legal! Foi construido dessa forma mas, como funciona?
 
 :thinking: vamos resolver esse problema
 
-##MultiplicacaoModel
+# MultiplicacaoModel
 
 Para conseguir salvar a tabuada eu preciso armazenar em algum lugar, por isso eu utilizei o padrão de arquitetura MVC de forma simples.
 
@@ -63,7 +63,7 @@ Variavel que armazena os valores
   public $valores;
 ```
 
-## MultiplicacaoController
+# MultiplicacaoController
 
 Criado o lugar que iremos guardar a variavel, agora iremos fazer a mágica acontecer. Que é calcular os dados que virá do index.php e transforma-lo em uma tabuada.
 
