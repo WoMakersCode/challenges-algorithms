@@ -65,9 +65,9 @@ Variavel que armazena os valores
 
 # MultiplicacaoController
 
-Criado o lugar que iremos guardar a variavel, agora iremos fazer a mágica acontecer. Que é calcular os dados que virá do index.php e transforma-lo em uma tabuada.
+Criado o lugar que iremos guardar a variavel, agora iremos fazer a mágica acontecer. Que é calcular os dados que virá do formulário e transforma-lo em uma tabuada.
 
-Nesse metodo se passa dois parametros, o numero e a quantidade de vezes que será multiplicado.
+Nesse metodo se passa dois parâmetros, o numero e a quantidade de vezes que será multiplicado.
 
 ```php
   public function multiplicar($numero, $quantidadeVezes)
