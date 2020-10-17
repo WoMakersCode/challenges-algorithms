@@ -67,7 +67,7 @@ Variavel que armazena os valores
 
 Criado o lugar que iremos guardar a variavel, agora iremos fazer a mágica acontecer. Que é calcular os dados que virá do formulário e transforma-lo em uma tabuada.
 
-Nesse metodo se passa dois parâmetros, o numero e a quantidade de vezes que será multiplicado.
+Para isso foi criado esse metodo que é passado dois parâmetros, o numero e a quantidade de vezes que será multiplicado.
 
 ```php
   public function multiplicar($numero, $quantidadeVezes)
