@@ -30,9 +30,10 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 
 ## :closed_book: Tutoriais disponíveis
 
-| Desafio               |    Nível    |
-| --------------------- | :---------: |
+| Desafio                                                                                                                             |    Nível    |
+| ----------------------------------------------------------------------------------------------------------------------------------- | :---------: |
 | [Birthday Candles Cake](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-birthday-candles-cake) | `level-200` |
+| [Tabuada](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-tabuada)                                          | `level-100` |
 
 ## :thinking: Como funciona
 
@@ -73,4 +74,4 @@ Para enviar um tutorial, siga os seguintes passos:
 
 ## Contributors
 
-[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), e [Ana Beatriz](https://twitter.com/anabneri)
+[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) e [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/)
