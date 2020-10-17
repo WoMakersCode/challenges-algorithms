@@ -125,7 +125,7 @@ Dentro dessa função irei executar um foreach, para que eu consiga pegar os val
     foreach ($this->valores as $valor) {
 ```
 
-Lembra que eu disse anteriormente, do array multidimensional associativo? Então as chaves que eu criei na função anterior eu estou a convocando para mostrar o seu valor. E como está sinalizado é bem fácil saber o que é, não acha?
+Lembra que eu disse anteriormente, do array multidimensional associativo? Então as chaves que eu criei na função anterior, eu estou a convocando para mostrar o seu valor. E como está sinalizado é bem fácil saber o que é, não acha?
 Ao convocar esses valores estou o concatenando, para ficar em formato de tabela quando for chamado no index.php
 
 ```php
