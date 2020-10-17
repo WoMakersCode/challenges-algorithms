@@ -191,7 +191,7 @@ mas como iremos fazer isso?
   $multiplicacao->multiplicar($numero, $quantidade);
 ```
 
-3.0 Depois de instanciar a classe, eu irei chamar o metodo tabuada com a tabela já montada.
+3.0 Depois de instanciar a classe, eu irei chamar o metodo tabuada aonde foi criado a estura da tabela.
 
 ```php
     <?=
