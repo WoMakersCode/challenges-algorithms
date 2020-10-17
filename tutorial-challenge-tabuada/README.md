@@ -184,7 +184,7 @@ mas como iremos fazer isso?
   $quantidade = isset($_POST['qtdVezes']) ? $_POST['qtdVezes'] : '0';
 ```
 
-2.3º Instânciar a classe, e o metodo que irá criar a tabuada. Nesse metodo iremos passar dois parametros o numero que será multiplicado e a quantidade de vezes que esse numero será multiplicado
+2.3º Instânciar a classe e o metodo, que será multiplicado. Nesse metodo iremos passar dois parametros o numero que será multiplicado e a quantidade de vezes que esse numero será multiplicado
 
 ```php
   $multiplicacao = new MultiplicacaoController();
