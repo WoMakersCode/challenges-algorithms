@@ -79,14 +79,14 @@ Para fazer a tabuada eu criei esse loop, aonde eu passo a quantidade de vezes qu
   for ($i = 0; $i <= $quantidadeVezes; $i++) {
 ```
 
-Lembra daquela variavel que criamos na classe 'MultiplicacaoModel'? Pois é iremos manipula-lá aqui no controller.
+Lembra daquela variavel que criamos na classe **MultiplicacaoModel**? Pois é iremos manipula-lá aqui no controller.
 Foi definido como um array multidimensional associativo.
 
 :thinking: Mas o que raios significa um array multidimensional associativo?
 
 Um array multidimensional significa que dentro de um array contem dois ou mais arrays. Já o associativo é um array que estamos associado o seu valor a uma chave especifica.
 
-:thinking: Mas por que voce fez dessa forma?
+:thinking: Mas por que você fez dessa forma?
 Para que na hora que for mostrado para o usuário, o desenvolvedor consiga manipular os dados mais fácil.
 
 Imagina se os dados estivessem dessa forma:
