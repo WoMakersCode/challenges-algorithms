@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+}
+.cabecalho {
+  padding: 20px 40px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 175, 144, 1) 22%,
+    rgba(44, 181, 161, 1) 62%
+  );
+}
+
+.cabecalho > h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.secao {
+  display: flex;
+  padding: 40px;
+  background-color: #d88b78;
+}
+
+form > label {
+  margin-top: 30px;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: darkred;
+}
+
+input {
+  margin-top: 30px;
+  display: flex;
+  height: 40px;
+  font-size: 20px;
+}
+
+div {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+}
+
+.tabuada {
+  height: 450px;
+  overflow-x: auto;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 500px;
+  font-size: 1.5em;
+}
+
+td,
+th {
+  border: 1px solid #f2f2f2;
+  padding: 8px;
+}
+
+tr {
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4cafaf;
+  color: white;
+}
