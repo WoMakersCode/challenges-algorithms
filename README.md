@@ -28,6 +28,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18)                       |    ..     | `level-100` |
 | [Soma valores mínimos e máximos](https://github.com/WoMakersCode/challenges-algorithms/issues/20)  |    ..     | `level-100` |
 | [Banco de horas](https://github.com/WoMakersCode/challenges-algorithms/issues/23)                  |    ..     | `level-200` |
+| [Contador de caracter](https://github.com/WoMakersCode/challenges-algorithms/issues/34)            |    ..     | `level-100` |
 | [Adivinhe o número](https://github.com/WoMakersCode/challenges-algorithms/issues/31)               |    ..     | `level-100` |
 
 ## :closed_book: Tutoriais disponíveis
