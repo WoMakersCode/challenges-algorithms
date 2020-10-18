@@ -21,6 +21,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7)              |    ..     | `level-400` |
 | [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10)                   |    ..     | `level-100` |
 | [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8)                  |    ..     | `level-200` |
+| [Inverta a ordem de uma string](https://github.com/WoMakersCode/challenges-algorithms/issues/27)   |    ..     | `level-200` |
 | [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13)                      |    ..     | `level-300` |
 | [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15)   |    ..     | `level-200` |
 | [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17)              |    ..     | `level-300` |
@@ -74,4 +75,5 @@ Para enviar um tutorial, siga os seguintes passos:
 
 ## Contributors
 
-[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) e [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/)
+[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2) e [Carlan  Calanzas](https://github.com/carlan)
+
