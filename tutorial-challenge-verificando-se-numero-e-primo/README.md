@@ -24,7 +24,7 @@ Não é primo!
 
 ## **CÓDIGO**
 
-Ok, vamos começar a codar. 
+:sunglasses: Ok, vamos começar a codar. 
 
 A primeira coisa que precisamos fazer é pegar o número que será verificado.
 ```kotlin
@@ -35,7 +35,7 @@ print("Insira o número desejado:")
 ### **O método**
 
 Depois que já temos o número que será verificador, fazemos um loop para saber quantos divisores esse número tem, sendo assim o loop
-vai pegar todos os número (a partir de 1 até o número escolhido) e dividir pelo número que será verificado.
+vai pegar todos os número (a partir de 1 até o número escolhido), dividir pelo número que será verificado e verificar se o resto dessa divisão é igual a 0.
 A variável contador será responsável por contabilizar a quantidade de divisores.
 
 
@@ -68,4 +68,4 @@ fun exibirResultado(contador:Int){
 
 ## FIM
 
-Espero ter contribuído, se surgir qualquer dúvida é só me chamar nas redes sociais [@ThalitaNeri](https://www.linkedin.com/in/thalita-neri-594065178/)
+Espero ter contribuído, se surgir qualquer dúvida é só me chamar nas redes sociais :raising_hand: [@ThalitaNeri](https://www.linkedin.com/in/thalita-neri-594065178/)
