@@ -77,5 +77,5 @@ Para enviar um tutorial, siga os seguintes passos:
 
 ## Contributors
 
-[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2) e [Carlan  Calanzas](https://github.com/carlan)
+[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2), [Carlan  Calanzas](https://github.com/carlan) e [Thalita Neri](https://github.com/tcneri)
 
