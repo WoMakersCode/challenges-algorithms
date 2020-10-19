@@ -1,4 +1,4 @@
-# Challenge Verificando Se Um Número é Primo
+# :white_check_mark: Challenge Verificando Se Um Número é Primo
 **Vamos ao enunciado:**
 
 Usuário digita um número natural inteiro e programa verifica se esse é número primo.
