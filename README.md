@@ -32,6 +32,8 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Enigma](https://github.com/WoMakersCode/challenges-algorithms/issues/36)                          |    ..     | `level-300` |
 | [Contador de caracter](https://github.com/WoMakersCode/challenges-algorithms/issues/34)            |    ..     | `level-100` |
 | [Adivinhe o número](https://github.com/WoMakersCode/challenges-algorithms/issues/31)               |    ..     | `level-100` |
+| [Imprima o segundo maior número](https://github.com/WoMakersCode/challenges-algorithms/issues/40)  |    ..     | `level-300` |
+
 
 ## :closed_book: Tutoriais disponíveis
 
@@ -79,5 +81,5 @@ Para enviar um tutorial, siga os seguintes passos:
 
 ## Contributors
 
-[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2) e [Carlan  Calanzas](https://github.com/carlan)
+[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2) , [Carlan  Calanzas](https://github.com/carlan) e [Kelly Knoblauch](https://github.com/kellykn96)
 
