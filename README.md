@@ -41,6 +41,9 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | ----------------------------------------------------------------------------------------------------------------------------------- | :---------: |
 | [Birthday Candles Cake](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-birthday-candles-cake) | `level-200` |
 | [Tabuada](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-tabuada)                                          | `level-100` |
+| [Número primo](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-verificando-se-numero-e-primo)                                          | `level-200` |
+
+
 
 ## :thinking: Como funciona
 
