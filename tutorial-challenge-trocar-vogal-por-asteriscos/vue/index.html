@@ -4,21 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Trocar vogal por asteriscos</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/estilo.css" />
 </head>
 
 <body>
 
-    <header>
-
+    <header class="cabecalho">
+        <h1>Desafio trocar vogar por asteriscos<h1>
     </header>
 
-    <div id="app">
-
-    </div>
+    <section class="secao">
+        <div id="app">
+            <span for="palavra"> Palavra: </span>
+            <input type="text" id="palavra" name="palavra" v-model="palavra" />
+            <br></br>
+            <span> Palavra com vogal trocada por *: </span>
+            <span class="palavra-asteriscos">{{ palavraAsteriscos }}<span>
+        </div>
+    </section>
 
 </body>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+<script type=" text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
 <script type="text/javascript" src="assets/js/funcoes.js"></script>
 
 </html>

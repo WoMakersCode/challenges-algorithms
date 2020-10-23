@@ -4,14 +4,17 @@ window.addEventListener('load', function () {
         el:'#app',
     
         data: {
-            form: {
-                palavra: null
-            }
+            palavra: '',
+            palavraAsteriscos: ''
+        },
+
+        watch: {
+          'palavra': 'trocarVogaisPorAsteriscos'
         },
 
         methods: {
-            trocarVogaisPorAsteriscos(){
-                
+            trocarVogaisPorAsteriscos(palavra){
+                this.palavraAsteriscos = palavra.replace(/[aeiouAEIOU]/gi,'*');
             }
         }
     })

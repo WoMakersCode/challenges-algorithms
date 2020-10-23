@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  background-color: darkgray;
+}
+
+.cabecalho {
+  padding: 40px 40px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 175, 144, 1) 22%,
+    rgba(44, 181, 161, 1) 62%
+  );
+}
+.cabecalho > h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.secao {
+  padding: 50px;
+}
+label {
+  margin-top: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  color: brown;
+}
+span {
+  margin-top: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  color: brown;
+}
+.palavra-asteriscos {
+  color: darkblue;
+}
+input {
+  margin-top: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+div {
+  margin-left: 100px;
+  margin-right: 100px;
+}
