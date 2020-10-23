@@ -38,12 +38,12 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 
 ## :closed_book: Tutoriais disponíveis
 
-| Desafio                                                                                                                                  |    Nível    |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
-| [Birthday Candles Cake](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-birthday-candles-cake)      | `level-200` |
-| [Tabuada](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-tabuada)                                               | `level-100` |
-| [Número primo](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-verificando-se-numero-e-primo)       | `level-200` |
-| [Verificando se um número é primo](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-trocar-vogal-para-asteriscos) | `level-100` |
+| Desafio                                                                                                                             |    Nível    |
+| ----------------------------------------------------------------------------------------------------------------------------------- | :---------: |
+| [Birthday Candles Cake](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-birthday-candles-cake) | `level-200` |
+| [Tabuada](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-tabuada)                                          | `level-100` |
+| [Número primo](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-verificando-se-numero-e-primo)  | `level-200` |
+| [Troca vogal por \*](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-trocar-vogal-para-asteriscos)          | `level-100` |
 
 ## :thinking: Como funciona
 
