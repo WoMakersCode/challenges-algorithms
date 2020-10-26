@@ -35,7 +35,11 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Contator de palavras repetidas](https://github.com/WoMakersCode/challenges-algorithms/issues/43)  |    ..     | `level-200` |
 | [Imprima o segundo maior número](https://github.com/WoMakersCode/challenges-algorithms/issues/40)  |    ..     | `level-300` |
 | [Imprima o século do ano](https://github.com/WoMakersCode/challenges-algorithms/issues/48)  |    ..     | `level-100` |
+<<<<<<< HEAD
 | [Maior produto de um array](https://github.com/WoMakersCode/challenges-algorithms/issues/50)  |    ..     | `level-100` |
+=======
+| [Divisíveis por 2 e 3](https://github.com/WoMakersCode/challenges-algorithms/issues/45)            |    ..     | `level-100` |
+>>>>>>> 0c343a65869c6951f6447930364029e361dbb4da
 
 ## :closed_book: Tutoriais disponíveis
 
@@ -43,6 +47,9 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | ----------------------------------------------------------------------------------------------------------------------------------- | :---------: |
 | [Birthday Candles Cake](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-birthday-candles-cake) | `level-200` |
 | [Tabuada](https://github.com/ieleny/challenges-algorithms/tree/tutorial-challenge-tabuada)                                          | `level-100` |
+| [Número primo](https://github.com/WoMakersCode/challenges-algorithms/tree/master/tutorial-challenge-verificando-se-numero-e-primo)                                          | `level-200` |
+
+
 
 ## :thinking: Como funciona
 
@@ -83,5 +90,9 @@ Para enviar um tutorial, siga os seguintes passos:
 
 ## Contributors
 
-[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2) , [Carlan  Calanzas](https://github.com/carlan) e [Kelly Knoblauch](https://github.com/kellykn96)
+
+[Laís Lima](https://twitter.com/laislima_dev), [Kamila Santos](https://twitter.com/kamilah_santos), [Ana Beatriz](https://twitter.com/anabneri) , [Ieleny Filgueira](https://www.linkedin.com/in/ieleny-filgueira-3b370a128/), [Danielle Farias](https://github.com/danielle8farias), [Letícia Campos](https://github.com/leticiacamposs2), [Carlan  Calanzas](https://github.com/carlan), [Kelly Knoblauch](https://github.com/kellykn96) e [Thalita Neri](https://github.com/tcneri)
+
+
+
 
