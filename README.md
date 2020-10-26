@@ -35,11 +35,8 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Contator de palavras repetidas](https://github.com/WoMakersCode/challenges-algorithms/issues/43)  |    ..     | `level-200` |
 | [Imprima o segundo maior número](https://github.com/WoMakersCode/challenges-algorithms/issues/40)  |    ..     | `level-300` |
 | [Imprima o século do ano](https://github.com/WoMakersCode/challenges-algorithms/issues/48)  |    ..     | `level-100` |
-<<<<<<< HEAD
 | [Maior produto de um array](https://github.com/WoMakersCode/challenges-algorithms/issues/50)  |    ..     | `level-100` |
-=======
 | [Divisíveis por 2 e 3](https://github.com/WoMakersCode/challenges-algorithms/issues/45)            |    ..     | `level-100` |
->>>>>>> 0c343a65869c6951f6447930364029e361dbb4da
 
 ## :closed_book: Tutoriais disponíveis
 
