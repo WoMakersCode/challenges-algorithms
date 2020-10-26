@@ -31,6 +31,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Enigma](https://github.com/WoMakersCode/challenges-algorithms/issues/36)                          |    ..     | `level-300` |
 | [Contador de caracter](https://github.com/WoMakersCode/challenges-algorithms/issues/34)            |    ..     | `level-100` |
 | [Adivinhe o número](https://github.com/WoMakersCode/challenges-algorithms/issues/31)               |    ..     | `level-100` |
+| [Classificar por altura](https://github.com/WoMakersCode/challenges-algorithms/issues/53)               |    ..     | `level-200` |
 
 ## :closed_book: Tutoriais disponíveis
 
