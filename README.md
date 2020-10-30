@@ -12,29 +12,32 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 
 ## :computer: Desafios disponíveis
 
-| Desafio                                                                                                               | Resolução |    Nível    |
-| --------------------------------------------------------------------------------------------------------------------- | :-------: | :---------: |
-| [Soma simples](https://github.com/WoMakersCode/challenges-algorithms/issues/1)                                        |    ..     | `level-100` |
-| [Tabuada](https://github.com/WoMakersCode/challenges-algorithms/issues/2)                                             |    ..     | `level-100` |
-| [Verificando se um número é primo](https://github.com/WoMakersCode/challenges-algorithms/issues/3)                    |    ..     | `level-100` |
-| [Troca vogal por \*](https://github.com/WoMakersCode/challenges-algorithms/issues/5)                                  |    ..     | `level-200` |
-| [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7)                                 |    ..     | `level-400` |
-| [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10)                                      |    ..     | `level-100` |
-| [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8)                                     |    ..     | `level-200` |
-| [Inverta a ordem de uma string](https://github.com/WoMakersCode/challenges-algorithms/issues/27)                      |    ..     | `level-200` |
-| [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13)                                         |    ..     | `level-300` |
-| [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15)                      |    ..     | `level-200` |
-| [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17)                                 |    ..     | `level-300` |
-| [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18)                                          |    ..     | `level-100` |
-| [Soma valores mínimos e máximos](https://github.com/WoMakersCode/challenges-algorithms/issues/20)                     |    ..     | `level-100` |
-| [Banco de horas](https://github.com/WoMakersCode/challenges-algorithms/issues/23)                                     |    ..     | `level-200` |
-| [Encontrar caractere em frase digitada pelo usuário](https://github.com/WoMakersCode/challenges-algorithms/issues/30) |    ..     | `level-200` |
-| [Enigma](https://github.com/WoMakersCode/challenges-algorithms/issues/36)                                             |    ..     | `level-300` |
-| [Contador de caracter](https://github.com/WoMakersCode/challenges-algorithms/issues/34)                               |    ..     | `level-100` |
-| [Adivinhe o número](https://github.com/WoMakersCode/challenges-algorithms/issues/31)                                  |    ..     | `level-100` |
-| [Contator de palavras repetidas](https://github.com/WoMakersCode/challenges-algorithms/issues/43)                     |    ..     | `level-200` |
-| [Imprima o segundo maior número](https://github.com/WoMakersCode/challenges-algorithms/issues/40)                     |    ..     | `level-300` |
-| [Divisíveis por 2 e 3](https://github.com/WoMakersCode/challenges-algorithms/issues/45)                               |    ..     | `level-100` |
+| Desafio                                                                                            | Resolução |    Nível    |
+| -------------------------------------------------------------------------------------------------- | :-------: | :---------: |
+| [Soma simples](https://github.com/WoMakersCode/challenges-algorithms/issues/1)                     |    ..     | `level-100` |
+| [Tabuada](https://github.com/WoMakersCode/challenges-algorithms/issues/2)                          |    ..     | `level-100` |
+| [Verificando se um número é primo](https://github.com/WoMakersCode/challenges-algorithms/issues/3) |    ..     | `level-100` |
+| [Troca vogal por \*](https://github.com/WoMakersCode/challenges-algorithms/issues/5)               |    ..     | `level-200` |
+| [Algoritmo Dijkstras](https://github.com/WoMakersCode/challenges-algorithms/issues/7)              |    ..     | `level-400` |
+| [Maior de três](https://github.com/WoMakersCode/challenges-algorithms/issues/10)                   |    ..     | `level-100` |
+| [Posição decimal](https://github.com/WoMakersCode/challenges-algorithms/issues/8)                  |    ..     | `level-200` |
+| [Inverta a ordem de uma string](https://github.com/WoMakersCode/challenges-algorithms/issues/27)   |    ..     | `level-200` |
+| [Palíndromo](https://github.com/WoMakersCode/challenges-algorithms/issues/13)                      |    ..     | `level-300` |
+| [Simulador de caixa eletrônico](https://github.com/WoMakersCode/challenges-algorithms/issues/15)   |    ..     | `level-200` |
+| [Diferença Absoluta](https://github.com/WoMakersCode/challenges-algorithms/issues/17)              |    ..     | `level-300` |
+| [Escadaria](https://github.com/WoMakersCode/challenges-algorithms/issues/18)                       |    ..     | `level-100` |
+| [Soma valores mínimos e máximos](https://github.com/WoMakersCode/challenges-algorithms/issues/20)  |    ..     | `level-100` |
+| [Banco de horas](https://github.com/WoMakersCode/challenges-algorithms/issues/23)                  |    ..     | `level-200` |
+| [Encontrar caractere em frase digitada pelo usuário](https://github.com/WoMakersCode/challenges-algorithms/issues/30)|    ..     | `level-200` |
+| [Enigma](https://github.com/WoMakersCode/challenges-algorithms/issues/36)                          |    ..     | `level-300` |
+| [Contador de caracter](https://github.com/WoMakersCode/challenges-algorithms/issues/34)            |    ..     | `level-100` |
+| [Adivinhe o número](https://github.com/WoMakersCode/challenges-algorithms/issues/31)               |    ..     | `level-100` |
+| [Contator de palavras repetidas](https://github.com/WoMakersCode/challenges-algorithms/issues/43)  |    ..     | `level-200` |
+| [Imprima o segundo maior número](https://github.com/WoMakersCode/challenges-algorithms/issues/40)  |    ..     | `level-300` |
+| [Imprima o século do ano](https://github.com/WoMakersCode/challenges-algorithms/issues/48)  |    ..     | `level-100` |
+| [Maior produto de um array](https://github.com/WoMakersCode/challenges-algorithms/issues/50)  |    ..     | `level-100` |
+| [Divisíveis por 2 e 3](https://github.com/WoMakersCode/challenges-algorithms/issues/45)            |    ..     | `level-100` |
+
 
 ## :closed_book: Tutoriais disponíveis
 
