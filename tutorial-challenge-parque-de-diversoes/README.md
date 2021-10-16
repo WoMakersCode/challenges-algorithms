@@ -144,4 +144,4 @@ ou
 
 ## FIM
 
-Espero ter ajudado com algum novo conhecimento ou talvez um novo olhar sobre o desafio :) Se tiverem alguma dúvida, sugestão, ou só mandar um oi mesmo, pode me achar por aqui [Giu Roperto](https://www.linkedin.com/in/giuliaroperto/)
+Espero ter ajudado com algum novo conhecimento ou talvez um novo olhar sobre o desafio :) Se tiverem alguma dúvida, sugestão, queiram discutir sobre algum ponto ou só mandar um oi mesmo, podem me achar por aqui [Giu Roperto](https://www.linkedin.com/in/giuliaroperto/)
