@@ -21,7 +21,6 @@ Por conta da escolha da linguagem e da estrutura da aplicação, tomei a liberda
   1.53 ocorre 3 vezes
   1.35 ocorre 1 vez
   1.50 ocorre 1 vez
-  1.30 ocorre 2 vezes
 
 ```
 
@@ -35,7 +34,7 @@ Legal! Foi construido dessa forma mas, como funciona?
 
 # CÓDIGO
 
-thinking: vamos resolver esse problema?
+:thinking: vamos resolver esse problema?
 
 # App.js
 
@@ -74,7 +73,7 @@ Já o handleChange é como se estivesse escutando cada tecla digitada no input e
   };
 ```
 
-Por fim, na renderização DOM tem a lógica de exibição do resultado (output). Esse trecho nada mais é do que um check se existe algum valor na variável output, e caso exista, itera sobre cada uma das strings de agrupamento e as insere em tags <p>, para que assim sejam exibidas separadamente.
+Por fim, na renderização DOM tem a lógica de exibição do resultado (output). Esse trecho nada mais é do que um check se existe algum valor na variável output, e caso exista, itera sobre cada uma das strings de agrupamento e as envolve com tags \<p\>, para que assim sejam exibidas separadamente.
 
 ```javascript
   <div className="output-container">{output && output.map(item => <p>{item}</p>)}</div>
@@ -145,4 +144,4 @@ ou
 
 ## FIM
 
-Espero ter ajudado com algum novo conhecimento ou talvez um novo olhar sobre o desafio :) Se tiverem alguma dúvida, sugestão, ou só mandar um oi mesmo, pode me achar por aqui [Giu Roperto](https://www.linkedin.com/in/giuliaroperto/)
+Espero ter ajudado com algum novo conhecimento ou talvez um novo olhar sobre o desafio :) Se tiverem alguma dúvida, sugestão, queiram discutir sobre algum ponto ou só mandar um oi mesmo, podem me achar por aqui [Giu Roperto](https://www.linkedin.com/in/giuliaroperto/)
