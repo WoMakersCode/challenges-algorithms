@@ -21,7 +21,6 @@ Por conta da escolha da linguagem e da estrutura da aplicação, tomei a liberda
   1.53 ocorre 3 vezes
   1.35 ocorre 1 vez
   1.50 ocorre 1 vez
-  1.30 ocorre 2 vezes
 
 ```
 
@@ -35,7 +34,7 @@ Legal! Foi construido dessa forma mas, como funciona?
 
 # CÓDIGO
 
-thinking: vamos resolver esse problema?
+:thinking: vamos resolver esse problema?
 
 # App.js
 
