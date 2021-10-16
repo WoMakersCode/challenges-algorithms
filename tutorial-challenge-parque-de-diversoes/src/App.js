@@ -47,37 +47,3 @@ const App = () => {
 }
 
 export default App;
-
-
-// const agruparPorAltura = (n, array) => {
-
-//   //  filtrar o array para selecionar apenas as entradas únicas
-//   let valoresUnicos = array.filter((item, idx) => array.indexOf(item) == idx);
-  
-//   // criando variaveis para (respectivamente):
-//   // 1. a string final (tipo String)
-//   // 2. escolher entre a palavra "vez" ou "vezes" (tipo String)
-//   // 3. colocar ou não a quebra de linha ao final da frase, pois se for o ultimo elemento não devemos adicionar a quebra (tipo String)
-//   // 4. a quantidade de ocorrências de cada altura (tipo inteiro)
-//   let string, times, eol, count;
-  
-//   // loop para iterar sob o array de valores unicos e para contar quantas ocorrencias no array original de cada valor
-//   for(let i = 0; i < valoresUnicos.length; i++) {
-//     // verificando quantas ocorrencias de cada altura
-//     count = array.filter(item => item === valoresUnicos[i]).length;
-//     // selecionando a conjugação correta da palavra vez
-//     count > 1 ? times = "vezes" : times = "vez";
-//     // decidindo se será adicionada a quebra de linha ao final (o que não deve ocorrer se for o último elemento da sequencia)
-//     i < valoresUnicos.length - 1 ? eol = "\n" : eol = "";
-//     // por fim, concatenamos a string com os novos valores de altura e o numero de ocorrencias
-//     string += `${valoresUnicos[i]} ocorre ${count} ${times}${eol}`;
-//   }
-  
-//   // e retornamos a string final
-//   return string;
-//   };
-
-// // testando com o exemplo proposto
-// let n = 8;
-// let array = [1.30, 1.53, 1.53, 1.35, 1.50, 1.53, 1.30, 1.30];
-// console.log(agruparPorAltura(n, array));
