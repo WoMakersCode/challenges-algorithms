@@ -73,7 +73,7 @@ Já o handleChange é como se estivesse escutando cada tecla digitada no input e
   };
 ```
 
-Por fim, na renderização DOM tem a lógica de exibição do resultado (output). Esse trecho nada mais é do que um check se existe algum valor na variável output, e caso exista, itera sobre cada uma das strings de agrupamento e as insere em tags <p>, para que assim sejam exibidas separadamente.
+Por fim, na renderização DOM tem a lógica de exibição do resultado (output). Esse trecho nada mais é do que um check se existe algum valor na variável output, e caso exista, itera sobre cada uma das strings de agrupamento e as envolve com tags \<p\>, para que assim sejam exibidas separadamente.
 
 ```javascript
   <div className="output-container">{output && output.map(item => <p>{item}</p>)}</div>
