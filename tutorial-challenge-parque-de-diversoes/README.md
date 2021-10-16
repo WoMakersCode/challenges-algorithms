@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+# Desafio Parque de Diversões
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Vamos ao enunciado:**
 
-## Available Scripts
+Hoje é um dia especial, Graziele, professora de história da turma do 2º ano, levará seus alunos em um parque de diversões de história natural, entretanto, alguns brinquedos tem pré-requisito de altura e sua tarefa é ajudar a professora a organizar as coisas. A professora decidiu agrupar os alunos por alturas semelhantes. Logo, sua entrada será um número inteiro n = Número de alunos, seguido de uma sequência com m números reais que representam suas respectivas alturas. A saída de seu programa de ser o agrupamento de todas as alturas dos alunos.
 
-In the project directory, you can run:
+**Considerações:**
+Por conta da escolha da linguagem e da estrutura da aplicação, tomei a liberdade de adaptar os valores de entrada para contemplarem apenas a sequência de alturas, desconsiderando o número de alunos.
 
-### `yarn start`
+**Exemplo de Entrada**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+  1.30, 1.53, 1.53, 1.35, 1.50, 1.53, 1.30, 1.30
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
 
-### `yarn test`
+**Exemplo de Saida**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+  1.30 ocorre 3 vezes
+  1.53 ocorre 3 vezes
+  1.35 ocorre 1 vez
+  1.50 ocorre 1 vez
+  1.30 ocorre 2 vezes
 
-### `yarn build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Estrutura do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Primeira coisa a ser feita, é organizar o projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Devo confessar que o projeto fica devendo em termos de arquitetura pois tentei deixá-lo o mais simples possível. Assim sendo, mantive a estrutura original que é gerada com o create-react-app, apenas removendo o que não seria utilizado. A única coisa de diferente foi que resolvi separar as regras de negócio em um arquivo à parte chamado Utils.js.
 
-### `yarn eject`
+Legal! Foi construido dessa forma mas, como funciona?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# CÓDIGO
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+thinking: vamos resolver esse problema?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# App.js
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+É onde fica basicamente toda a parte de UI da aplicação, com todo o HTML e toda a lógica que rege os elementos da página.
 
-## Learn More
+Utilizei o useState para a manipulação de estados. O inputString é a string que está sendo digitada no input da página com a sequência de alturas e o output é o array com as strings a serem exibidas de cada agrupamento.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```javascript
+  const [ inputString, setInputString ] = useState("");
+  const [ output, setOutput ] = useState([]);
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para atualizar os valores dos estados, criei o handleClick e o handleChange.
 
-### Code Splitting
+O handleClick nada mais é do que o que será disparado no click do botão "AGRUPAR", ou seja, irá pegar a string do input, gerar o array numérico e fazer o agrupamento por altura, setando o resultado no estado "output". Além disso, limpa o input para que possa ser digitada uma nova sequência de alturas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```javascript
+  const handleClick = (e) => {
+    e.preventDefault();
 
-### Analyzing the Bundle Size
+    let array = gerarArray(inputString);
+    setOutput(agruparPorAltura(array.length, array));
+    setInputString("");
+  };
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Já o handleChange é como se estivesse escutando cada tecla digitada no input e fosse atualizando a inputString, para que quando o botão for pressionado, a gente tenha armazenado tudo que foi digitado em uma variável. Além disso, limpamos o array de strings do output para que a próxima sequência de alturas digitadas não fique poluída com dados anteriores.
 
-### Making a Progressive Web App
+```javascript
+  const handleChange = (e) => {
+    e.preventDefault();
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    setOutput([]);
+    const { value } = e.target;
+    setInputString(value);
+  };
+```
 
-### Advanced Configuration
+Por fim, na renderização DOM tem a lógica de exibição do resultado (output). Esse trecho nada mais é do que um check se existe algum valor na variável output, e caso exista, itera sobre cada uma das strings de agrupamento e as insere em tags <p>, para que assim sejam exibidas separadamente.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```javascript
+  <div className="output-container">{output && output.map(item => <p>{item}</p>)}</div>
+```
 
-### Deployment
+# App.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Toda a estilização da página.
 
-### `yarn build` fails to minify
+# Utils.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Considerando a forma como foi elaborada essa solução, se fez necessário duas funções para manipular os dados:
+
+**agruparPorAltura(n, array)**
+Aqui é onde vamos fazer o agrupamento por alturas iguais. Mantive nessa parte as entradas sugeridas no exercício, porém o valor de n não é utilizado, apenas os valores do array.
+Para separar as alturas em grupos, primeiro criei um array apenas com os valores únicos (ou seja, não duplicados):
+
+```javascript
+  let valoresUnicos = array.filter((item, idx) => array.indexOf(item) === idx);
+```
+
+Depois, gerei um loop para percorrer cada um desses valores únicos de modo a contar quantas ocorrências existiam de cada um deles no array original.
+
+```javascript
+  count = array.filter(item => item === valoresUnicos[i]).length;
+```
+
+Por fim, para montar a string que será exibida na tela, verifiquei se o número de ocorrências é maior do que um, para poder utilizar a palavra "vez" da forma correta.
+
+```javascript
+  count > 1 ? times = "vezes" : times = "vez";
+```
+
+E então foi gerada a string para aquele grupo de altura, e ela foi inserida em um array (que será iterado durante a renderização) e esse é o retorno da função.
+
+```javascript
+  stringArray.push(`${valoresUnicos[i]} ocorre ${count} ${times}`);
+```
+
+**gerarArray(string)**
+Essa função formata a string recebida como input com as alturas, eliminando qualquer espaço que possa ter sido inserido.
+
+```javascript
+  let stringAjustada = string.replace(/\s/g, "");
+```
+
+Além disso, quebra a string em um array numérico que é retornado pela função.
+
+```javascript
+  stringAjustada.split(',').map(item => Number(item));
+```
+
+Para que funcione devidamente, parti da premissa que o usuário irá digitar os valores de acordo com as instruções fornecidas.
+
+# COMO RODAR?
+
+Caso tenha interesse em ver a página funcionando e não apenas o código... Entrar na pasta do challenge pelo console e caso você já tenha instalado npm ou yarn, digitar
+
+```
+  npm start
+```
+
+ou
+
+```
+  yarn start
+```
+
+## FIM
+
+Espero ter ajudado com algum novo conhecimento ou talvez um novo olhar sobre o desafio :) Se tiverem alguma dúvida, sugestão, ou só mandar um oi mesmo, pode me achar por aqui [Giu Roperto](https://www.linkedin.com/in/giuliaroperto/)

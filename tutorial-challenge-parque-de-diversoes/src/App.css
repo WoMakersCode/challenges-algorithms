@@ -6,7 +6,6 @@
   background-color: #282c34;
   height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -25,7 +24,8 @@
 
 .data-container {
   min-height: 80vh;
-  background: rgba(253, 245, 230, 0.8);
+  background: rgba(253, 245, 230, 0.85);
+  border-radius: 15px;
 }
 
 .input-container {
@@ -37,4 +37,35 @@
 
 .input-field {
   width: 40vw;
+  font-size: 14px;
+}
+
+.txt-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-txt {
+  font-size: 16px;
+  margin-bottom: 10px;
+  max-width: 45vw;
+  
+}
+
+.warning-text {
+  color: rgb(173, 40, 40);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  max-width: 45vw;
+}
+
+.btn {
+  border: none;
+  background: rgb(233, 60, 141);
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
 }

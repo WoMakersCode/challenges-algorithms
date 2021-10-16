@@ -1,10 +1,27 @@
+import { useState } from 'react';
 import './App.css';
-import agruparPorAltura from './Utils';
+import { agruparPorAltura, gerarArray } from './Utils';
 
 const App = () => {
 
-  let teste = agruparPorAltura(1, [1.0, 2.0]);
-  console.log(teste);
+  const [ inputString, setInputString ] = useState("");
+  const [ output, setOutput ] = useState([]);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+
+    let array = gerarArray(inputString);
+    setOutput(agruparPorAltura(array.length, array));
+    setInputString("");
+  };
+
+  const handleChange = (e) => {
+    e.preventDefault();
+
+    setOutput([]);
+    const { value } = e.target;
+    setInputString(value);
+  };
 
   return (
     <div className="App">
@@ -14,14 +31,15 @@ const App = () => {
       <body className="App-body">
         <div className="data-container">
           <div className="input-container">
-            <p>Inserir todas as alturas dos alunos separadas por vírgula.</p>
-            <p>ATENÇÃO: utilizar PONTO nos números decimais (ex: 1.70)</p>
-            <input className="input-field" placeholder="Ex: 1.70, 1.65, 1.50, 1.70" type="text" />
-            <button>AGRUPAR</button>
+            <div className="txt-style">
+              <h1>Agrupar Alturas dos Alunos</h1>
+              <span className="main-txt">Instruções: Digite no campo abaixo as alturas dos alunos separadas por vírgula.</span>
+              <span className="warning-text">ATENÇÃO: utilizar PONTO ao invés de vírgula nos números decimais (ex: 1.70)</span>
+            </div>
+            <input className="input-field" placeholder="Ex: 1.70, 1.65, 1.50, 1.70" type="text" onChange={handleChange} value={inputString} maxLength="100"/>
+            <button className="btn" onClick={handleClick}>AGRUPAR</button>
           </div>
-          <div className="output-container">
-            {teste}
-          </div>
+          <div className="output-container">{output && output.map(item => <p>{item}</p>)}</div>
         </div>
       </body>
     </div>
@@ -30,18 +48,6 @@ const App = () => {
 
 export default App;
 
-
-
-
-// // Hoje é um dia especial, Graziele, professora de história da turma do 2º ano, levará seus alunos em um parque de diversões de história natural, entretanto, alguns brinquedos tem pré-requisito de altura e sua tarefa é ajudar a professora a organizar as coisas. A professora decidiu agrupar os alunos por alturas semelhantes.Logo, sua entrada será um número inteiro n = Número de alunos, seguido de uma sequência com m números reais que representam suas respectivas alturas. A saída de seu programa de ser o agrupamento de todas as alturas dos alunos.
-
-// // Exemplo: n = 8
-// // Seqüência: 1.30, 1.53, 1.53, 1.35, 1.50, 1.53, 1.30, 1.30
-// // Saída: 1.30 ocorre 3 vezes
-// // 1.53 ocorre 3 vezes
-// // 1.35 ocorre 1 vez
-// // 1.50 ocorre 1 vez
-// // 1.30 ocorre 2 vezes
 
 // const agruparPorAltura = (n, array) => {
 
