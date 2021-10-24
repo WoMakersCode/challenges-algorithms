@@ -1,8 +1,8 @@
-const fibonacci = (elementos) => {
-  if (elementos === 1 || elementos === 2) {
+const fibonacci = (posicao) => {
+  if (posicao === 1 || posicao === 2) {
     return 1;
   } else {
-    return fibonacci(elementos - 1) + fibonacci(elementos - 2);
+    return fibonacci(posicao - 1) + fibonacci(posicao - 2);
   }
 };
 
