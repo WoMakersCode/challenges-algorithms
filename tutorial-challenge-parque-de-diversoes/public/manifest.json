@@ -1,0 +1,8 @@
+{
+  "short_name": "Parque de Diversão",
+  "name": "Desafio Parque de Diversão",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
