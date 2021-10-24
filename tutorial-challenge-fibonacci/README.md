@@ -44,7 +44,7 @@ Legal! Foi construido dessa forma mas, como funciona?
 
 # Função exibirSequenciaFibonacci(elementos)
 
-Essa função é o ponto de entrada, pois é ela que invocará a função fibonacci(elementos) que calcula o valor de cada número da sequência. 
+Essa função é o ponto de entrada, pois é ela que invocará a função fibonacci(elementos) que calcula o valor de cada número da sequência.
 Recebe como argumento **elementos** um valor inteiro que corresponde ao número de elementos da sequência a serem exibidos.
 
 ```
@@ -96,7 +96,7 @@ const fibonacci = (3) => {
 };
 ```
 
-Iremos cair no bloco else, e chamaremos novamente a função fibonacci agora passando como argumento as duas posicões anteriores, pois assim poderemos 
+Iremos cair no bloco else, e chamaremos novamente a função fibonacci agora passando como argumento as duas posicões anteriores, pois assim poderemos
 calcular o valor de cada posição e somá-los de forma a saber o valor da posição atual. Esse código retorna a soma do elemento da posição anterior (posição - 1)
 e do elemento da posição anterior ao anterior (posição - 2). No caso, as duas posições anteriores ao 3 é a posição 2 (posição 3 - 1) e a 1 (posição 3 - 2).
 
