@@ -3,17 +3,16 @@ package com.groperto;
 import java.util.Scanner;
 
 public class Main {
-    static int number = (int) (Math.random() * 100 + 1);
+    static int number = (int) (Math.random() * 101);
+    static int guesses = 1;
 
     public static void main(String[] args) {
-        int guesses = 1;
-
         showHeader();
         showInstructions();
-        boolean hasGuessed = readNumber(guesses);
+        boolean hasGuessed = readNumber();
         while (!hasGuessed && guesses < 10) {
             guesses += 1;
-            hasGuessed = readNumber(guesses);
+            hasGuessed = readNumber();
         }
     }
 
@@ -30,14 +29,17 @@ public class Main {
         System.out.println("Mas atenção, você tem 10 chances apenas para adivinhar o número.");
     }
 
-    public static boolean readNumber(int guesses) {
+    public static boolean readNumber() {
         System.out.println("");
-        System.out.println("CHANCE " + guesses);
+        System.out.println("TENTATIVA " + guesses);
         System.out.println("Qual o número que eu estou pensando?");
         Scanner scanner = new Scanner(System.in);
         int guess = scanner.nextInt();
         if (guess == number) {
+            System.out.println("------------------------------------");
             System.out.println("Parabéns! Você ACERTOU!");
+            System.out.println("Número de tentativas: " + guesses);
+            System.out.println("------------------------------------");
             gameOver();
             return true;
         }
