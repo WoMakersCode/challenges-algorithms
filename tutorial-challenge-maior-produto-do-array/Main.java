@@ -48,7 +48,6 @@ public class Main {
         System.out.println("Digite os números inteiros da matriz separados por vírgula. Ex: 1, 2, 3, 4");
         Scanner scanner = new Scanner(System.in);
         String array = scanner.nextLine();
-        System.out.println(array);
         return array;
     }
 
