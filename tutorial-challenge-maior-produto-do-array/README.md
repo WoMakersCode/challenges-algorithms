@@ -56,7 +56,8 @@ Em Java, para printar essa mensagens no console, usamos o System.out.println().
 Essa função é chamada logo após mostrar o header com o nome da aplicação, e portanto, deve passar mais algumas informações ao usuário.
 Assim, informo sobre o objetivo da aplicação
 ```
-System.out.println("Olá, esse é um programa para calcular o maior produto possível de dois números adjacentes de uma dada matriz de inteiros.");
+System.out.println("Olá, esse é um programa para calcular o maior produto
+possível de dois números adjacentes de uma dada matriz de inteiros.");
 ```
 
 e solicito que digite os números inteiros para gerar a matriz
@@ -100,6 +101,7 @@ if (inputArray.length == 1) product = inputArray[0];
 
 Então, para poder ver qual é o maior produto do array, foi criado um loop que tem como valor inicial o tamanho da matriz - 1, pois assim estaremos acessando o último valor da matriz, já que ela é base 0 e, portanto, o valor na última posição é igual ao tamanho - 1.
 A ideia foi criar um loop inverso, que vem calculando a partir da última posição até chegar à primeira posição da matriz. Foi uma questão de preferência estruturar dessa maneira, podendo ser realizado da primeira posição à última também.
+
 Nesse caso, como estamos começando pelo fim da matriz, a condição a ser checada é se o iterador é maior do que zero e a cada iteração ir diminuindo uma posição.
 Estou interessada na condição de se o iterador for maior do que zero pois dentro desse lop sempre vou analisar uma posição anterior, e portanto, para fugir do Array Index Out of Bounds (quando queremos acessar uma posição que não existe na matriz) precisava parar de rodar o loop quando chegasse na posição 1.
 Caso colocasse como condição i >= 0, quando i fosse igual a 0, o loop seria executado, e como eu acesso sempre uma posição anterior, tentaria acessar a posição da matriz de -1 que não existe, e daria erro.
@@ -157,7 +159,7 @@ if (userArray.length == 1 && userArray[0].equals("")) {
 
 Por fim, realizo a conversão do array de strings userArray para um array de inteiros userArrayToInt, utilizando stream. Como nesse momento o código está passível de quebrar mais uma vez, caso o usuário digite um valor de texto que não possa ser convertido para inteiro, esse trecho foi colocado dentro de um try/catch.
 Assim, caso resulte em alguma exceção de NumberFormatException falhando em converter o valor, eu consigo, novamente, exibir para o usuário que o valor digitado era inválido e encerrar a execução da aplicação.
-Mas, considerando que os valores digitados sejam válidos, a execução continua e atribuo o resultado retornado pela função adjacentElementsProduct, passando esse novo array de inteiros como argumento, à variável estática result.
+Mas, considerando que os valores digitados sejam válidos, a execução continua normalmente e atribuo o resultado retornado pela função adjacentElementsProduct, passando esse novo array de inteiros como argumento, à variável estática result.
 Chamo enfim a função printResult para imprimir na tela o resultado da operação.
 
 ```
