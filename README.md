@@ -32,6 +32,8 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Enigma](https://github.com/WoMakersCode/challenges-algorithms/issues/36)                          |    ..     | `level-300` |
 | [Contador de caracter](https://github.com/WoMakersCode/challenges-algorithms/issues/34)            |    ..     | `level-100` |
 | [Adivinhe o número](https://github.com/WoMakersCode/challenges-algorithms/issues/31)               |    ..     | `level-100` |
+
+| [Parque de diversões](https://github.com/WoMakersCode/challenges-algorithms/issues/55)             |    ..     | `level-200` |
 | [Classificar por altura](https://github.com/WoMakersCode/challenges-algorithms/issues/53)               |    ..     | `level-200` |
 | [Array de string longas](https://github.com/WoMakersCode/challenges-algorithms/issues/51)               |    ..     | `level-100` |
 | [Contator de palavras repetidas](https://github.com/WoMakersCode/challenges-algorithms/issues/43)  |    ..     | `level-200` |
@@ -39,6 +41,7 @@ Este repositório é mantido pela comunidade WoMakersCode, trazendo uma série d
 | [Imprima o século do ano](https://github.com/WoMakersCode/challenges-algorithms/issues/48)  |    ..     | `level-100` |
 | [Maior produto de um array](https://github.com/WoMakersCode/challenges-algorithms/issues/50)  |    ..     | `level-100` |
 | [Divisíveis por 2 e 3](https://github.com/WoMakersCode/challenges-algorithms/issues/45)            |    ..     | `level-100` |
+
 
 
 ## :closed_book: Tutoriais disponíveis
